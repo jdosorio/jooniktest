@@ -52,7 +52,7 @@
                     return data;
                 }
                 },
-                { data: 'birthdate', name: 'birthday' },
+                { data: 'birthdate', name: 'birthdate' },
                 { data: 'title', name: 'title' },
                 { data: 'date', name: 'date' },
                 { data: 'added', name: 'added' },
