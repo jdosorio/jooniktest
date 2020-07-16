@@ -22,7 +22,7 @@ class DisplayTableController extends Controller
 
         $Posts = new Post();
                 
-        if($request->ajax() && !empty($request->get('search'))){            
+        if(!empty($request->get('search'))){            
             return DataTables::of($Posts->getFiltering($request))->make(true);
         }
         
